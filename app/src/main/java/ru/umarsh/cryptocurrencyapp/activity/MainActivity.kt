@@ -1,4 +1,4 @@
-package ru.umarsh.cryptocurrencyapp
+package ru.umarsh.cryptocurrencyapp.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import ru.umarsh.cryptocurrencyapp.ui.theme.CryptocurrencyAppTheme
+import ru.umarsh.cryptocurrencyapp.presentation.ui.theme.CryptocurrencyAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
