@@ -16,7 +16,7 @@ import javax.inject.Inject
 @HiltViewModel
 class CoinDetailViewModel @Inject constructor(
     private val getCoinUseCase: GetCoinUseCase,
-    private val stateHandle: SavedStateHandle
+    stateHandle: SavedStateHandle
 ) : ViewModel() {
 
     private val _state = mutableStateOf(CoinDetailState())
